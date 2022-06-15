@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shield
+  m_Shader: {fileID: 4800000, guid: 93ffc2a8f73cc714087b58675f86b9ed, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AdditionalDetailsTex:
+        m_Texture: {fileID: 2800000, guid: 31552326a3a8edb41a7e0691a7028e59, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _D1Tex:
+        m_Texture: {fileID: 2800000, guid: 7db6ee37b2efc714da1020d3f083ab17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DTex:
+        m_Texture: {fileID: 2800000, guid: 31552326a3a8edb41a7e0691a7028e59, type: 3}
+        m_Scale: {x: 3, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveTexture:
+        m_Texture: {fileID: 2800000, guid: 31552326a3a8edb41a7e0691a7028e59, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ElecTex:
+        m_Texture: {fileID: 2800000, guid: 31552326a3a8edb41a7e0691a7028e59, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _LineTex:
+        m_Texture: {fileID: 2800000, guid: 1952f8dce03e4b046b2fc23789fc699d, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 8f2a9765529c21f43ae0c8af6e3976cc, type: 3}
+        m_Scale: {x: 1, y: 0.3}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: ce05483fbb94b664e8fcf5176b93a1ca, type: 3}
+        m_Scale: {x: 6, y: 6}
+        m_Offset: {x: 0, y: 0}
+    - _ShieldTex:
+        m_Texture: {fileID: 2800000, guid: b8dbe04adbc22ff4590e525664493be5, type: 3}
+        m_Scale: {x: 22, y: 22}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _Amount: 0
+    - _ChangeColor: 0
+    - _Edges: 0
+    - _EmissionPow: 6
+    - _EmissionStr: 8.14
+    - _FresnelBias: 0
+    - _FresnelOpas: 1
+    - _FresnelPower: 1
+    - _FresnelSTR: 1
+    - _FresnelScale: 1
+    - _Level: 0
+    - _ShielAmpl: 0.418
+    - _ShieldMove: 0
+    - _ThunderSTR: 0.932
+    - _x1: 0.45
+    - _x2: 0.181
+    - _y1: 0.45
+    - _y2: 0
+    m_Colors:
+    - _Color: {r: 0, g: 0.85236764, b: 1, a: 1}
+    - _EColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EdgeColour1: {r: 0.3581951, g: 0.35635456, b: 0.5283019, a: 1}
+    - _EdgeColour2: {r: 1, g: 0, b: 0.9484043, a: 1}
+    - _Emission: {r: 0.50847435, g: 0, b: 1, a: 1}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LineColor: {r: 1, g: 0.28841394, b: 0, a: 1}
+    - _ThunderCol: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
